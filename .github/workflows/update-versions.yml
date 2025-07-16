@@ -1,0 +1,78 @@
+name: 更新 Kiro 版本信息
+
+on:
+  schedule:
+    # 每小时运行一次
+    - cron: '0 * * * *'
+  workflow_dispatch: # 允许手动触发
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'crawler.js'
+      - '.github/workflows/update-versions.yml'
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 设置 Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: 安装依赖
+      run: npm install
+      
+    - name: 运行爬虫脚本
+      run: npm start
+      
+    - name: 检查文件变化
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 提交更新
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "🤖 自动更新 Kiro 版本信息 - $(date +'%Y-%m-%d %H:%M:%S')"
+        git push
+        
+    - name: 创建发布标签 (如果有新版本)
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        # 获取最新版本号
+        LATEST_VERSION=$(node -e "
+          const fs = require('fs');
+          try {
+            const data = JSON.parse(fs.readFileSync('kiro-versions.json', 'utf8'));
+            const versions = Object.values(data.platforms)
+              .map(p => p.currentRelease)
+              .filter(v => v)
+              .sort()
+              .reverse();
+            console.log(versions[0] || 'unknown');
+          } catch(e) {
+            console.log('unknown');
+          }
+        ")
+        
+        if [ "$LATEST_VERSION" != "unknown" ]; then
+          TAG_NAME="data-update-$(date +'%Y%m%d-%H%M%S')"
+          git tag -a "$TAG_NAME" -m "数据更新: Kiro v$LATEST_VERSION"
+          git push origin "$TAG_NAME"
+          echo "创建标签: $TAG_NAME"
+        fi

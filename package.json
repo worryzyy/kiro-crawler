@@ -1,0 +1,14 @@
+{
+  "name": "kiro-version-crawler",
+  "version": "1.0.0",
+  "description": "Kiro version crawler",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "node crawler.js",
+    "test": "node crawler.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,125 @@
+{
+  "lastUpdated": "2025-07-16T13:59:10.069Z",
+  "platforms": {
+    "macOS (ARM64)": {
+      "currentRelease": "0.1.6",
+      "releases": [
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-dmg-darwin-arm64-0.1.6",
+            "name": "Kiro-dmg-darwin-arm64-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152330-Kiro-dmg-darwin-arm64.dmg"
+          }
+        }
+      ],
+      "error": null
+    },
+    "macOS (x64)": {
+      "currentRelease": "0.1.6",
+      "releases": [
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-dmg-darwin-x64-0.1.6",
+            "name": "Kiro-dmg-darwin-x64-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152349-Kiro-dmg-darwin-x64.dmg"
+          }
+        }
+      ],
+      "error": null
+    },
+    "Windows (x64)": {
+      "currentRelease": "0.1.6",
+      "releases": [
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-16",
+            "notes": "Kiro-win32-x64-user-0.1.6",
+            "name": "Kiro-win32-x64-user-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507160015-Kiro-win32-x64.exe"
+          }
+        }
+      ],
+      "error": null
+    },
+    "Linux (x64 DEB)": {
+      "currentRelease": "0.1.6",
+      "releases": [
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-deb-0.1.6",
+            "name": "Kiro-linux-x64-deb-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-deb/202507152342-distro-linux-x64.deb"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-deb-0.1.6",
+            "name": "Kiro-linux-x64-deb-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-deb/certificate.pem"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-deb-0.1.6",
+            "name": "Kiro-linux-x64-deb-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-deb/signature.bin"
+          }
+        }
+      ],
+      "error": null
+    },
+    "Linux (x64)": {
+      "currentRelease": "0.1.6",
+      "releases": [
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-0.1.6",
+            "name": "Kiro-linux-x64-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-tar-gz/202507152342-distro-linux-x64.tar.gz"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-0.1.6",
+            "name": "Kiro-linux-x64-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-tar-gz/certificate.pem"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "updateTo": {
+            "version": "0.1.6",
+            "pub_date": "2025-07-15",
+            "notes": "Kiro-linux-x64-0.1.6",
+            "name": "Kiro-linux-x64-0.1.6",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507152342--distro-linux-x64-tar-gz/signature.bin"
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+}
