@@ -74,7 +74,7 @@ function generateMarkdown(data) {
     .reverse()[0] || 'N/A';
   
   let markdown = `<div align="center">
-  <img src="./public/kiro.png" alt="Kiro IDE Logo" width="120" height="120">
+  <img src="./public/kiro.png" alt="Kiro IDE Logo" width="60" height="60">
   
   # 🚀 Kiro IDE Version History
 </div>
