@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2025-07-17T05:43:00.328Z",
+  "lastUpdated": "2025-07-18T03:37:23.061Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": "0.1.9",
+      "currentRelease": "0.1.15",
       "releases": [
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-dmg-darwin-arm64-0.1.9",
-            "name": "Kiro-dmg-darwin-arm64-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161958-Kiro-dmg-darwin-arm64.dmg"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-dmg-darwin-arm64-0.1.15",
+            "name": "Kiro-dmg-darwin-arm64-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180224-Kiro-dmg-darwin-arm64.dmg"
           }
         }
       ],
       "error": null
     },
     "macOS (x64)": {
-      "currentRelease": "0.1.9",
+      "currentRelease": "0.1.15",
       "releases": [
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-dmg-darwin-x64-0.1.9",
-            "name": "Kiro-dmg-darwin-x64-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507162010-Kiro-dmg-darwin-x64.dmg"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-dmg-darwin-x64-0.1.15",
+            "name": "Kiro-dmg-darwin-x64-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180243-Kiro-dmg-darwin-x64.dmg"
           }
         }
       ],
@@ -50,72 +50,72 @@
       "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": "0.1.9",
+      "currentRelease": "0.1.15",
       "releases": [
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-deb-0.1.9",
-            "name": "Kiro-linux-x64-deb-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-deb/202507161954-distro-linux-x64.deb"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-deb-0.1.15",
+            "name": "Kiro-linux-x64-deb-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-deb/202507180237-distro-linux-x64.deb"
           }
         },
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-deb-0.1.9",
-            "name": "Kiro-linux-x64-deb-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-deb/certificate.pem"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-deb-0.1.15",
+            "name": "Kiro-linux-x64-deb-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-deb/certificate.pem"
           }
         },
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-deb-0.1.9",
-            "name": "Kiro-linux-x64-deb-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-deb/signature.bin"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-deb-0.1.15",
+            "name": "Kiro-linux-x64-deb-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-deb/signature.bin"
           }
         }
       ],
       "error": null
     },
     "Linux (x64)": {
-      "currentRelease": "0.1.9",
+      "currentRelease": "0.1.15",
       "releases": [
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-0.1.9",
-            "name": "Kiro-linux-x64-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-tar-gz/202507161954-distro-linux-x64.tar.gz"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-0.1.15",
+            "name": "Kiro-linux-x64-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-tar-gz/202507180237-distro-linux-x64.tar.gz"
           }
         },
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-0.1.9",
-            "name": "Kiro-linux-x64-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-tar-gz/certificate.pem"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-0.1.15",
+            "name": "Kiro-linux-x64-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-tar-gz/certificate.pem"
           }
         },
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-linux-x64-0.1.9",
-            "name": "Kiro-linux-x64-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507161954--distro-linux-x64-tar-gz/signature.bin"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-linux-x64-0.1.15",
+            "name": "Kiro-linux-x64-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180237--distro-linux-x64-tar-gz/signature.bin"
           }
         }
       ],
