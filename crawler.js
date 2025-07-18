@@ -56,10 +56,72 @@ async function loadExistingData() {
   }
 }
 
-// Save data to JSON file
-async function saveData(data) {
-  await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
+// Merge new version data with existing data
+function mergeVersionData(existingData, newData) {
+  const mergedData = {
+    lastUpdated: new Date().toISOString(),
+    platforms: {}
+  };
+
+  // Initialize with existing data structure
+  if (existingData.platforms) {
+    mergedData.platforms = JSON.parse(JSON.stringify(existingData.platforms));
+  }
+
+  // Merge new data for each platform
+  Object.entries(newData.platforms).forEach(([platform, newInfo]) => {
+    if (!mergedData.platforms[platform]) {
+      // New platform, add directly
+      mergedData.platforms[platform] = {
+        currentRelease: newInfo.currentRelease,
+        releases: newInfo.releases || [],
+        error: newInfo.error || null
+      };
+    } else {
+      // Existing platform, merge releases
+      const existingInfo = mergedData.platforms[platform];
+      
+      // Update current release
+      existingInfo.currentRelease = newInfo.currentRelease;
+      existingInfo.error = newInfo.error || null;
+      
+      // Merge releases (avoid duplicates)
+      const existingReleases = existingInfo.releases || [];
+      const newReleases = newInfo.releases || [];
+      
+      newReleases.forEach(newRelease => {
+        const isDuplicate = existingReleases.some(existing => 
+          existing.version === newRelease.version &&
+          existing.updateTo?.url === newRelease.updateTo?.url
+        );
+        
+        if (!isDuplicate) {
+          existingReleases.push(newRelease);
+        }
+      });
+      
+      // Sort releases by version (newest first)
+      existingInfo.releases = existingReleases.sort((a, b) => {
+        return b.version.localeCompare(a.version, undefined, { numeric: true });
+      });
+    }
+  });
+
+  return mergedData;
+}
+
+// Save data to JSON file with merge support
+async function saveData(newData, existingData = null) {
+  let finalData = newData;
+  
+  if (existingData) {
+    finalData = mergeVersionData(existingData, newData);
+  }
+  
+  await fs.writeFile(DATA_FILE, JSON.stringify(finalData, null, 2), 'utf-8');
   console.log(`Data saved to ${DATA_FILE}`);
+  
+  return finalData;
 }
 
 // Generate Markdown document
@@ -137,7 +199,7 @@ function generateMarkdown(data) {
     markdown += `\n| ${winLink} | ${macLink} | ${linuxLink} |`;
   }
 
-  markdown += `\n\n## All Versions Download Table\n\n`;
+  markdown += `\n\n## Complete Version History\n\n`;
 
   // Collect data grouped by version
   const versionGroups = {};
@@ -236,9 +298,18 @@ function generateMarkdown(data) {
   const successfulPlatforms = Object.values(data.platforms).filter(p => !p.error).length;
   const totalReleases = Object.values(data.platforms).reduce((sum, p) => sum + (p.releases?.length || 0), 0);
   
+  // Count unique versions
+  const allVersions = new Set();
+  Object.values(data.platforms).forEach(p => {
+    if (!p.error && p.releases) {
+      p.releases.forEach(r => allVersions.add(r.version));
+    }
+  });
+  
   markdown += `- Supported Platforms: ${totalPlatforms}\n`;
   markdown += `- Successfully Retrieved: ${successfulPlatforms}\n`;
   markdown += `- Total Release Files: ${totalReleases}\n`;
+  markdown += `- Total Unique Versions: ${allVersions.size}\n`;
   markdown += `\n---\n`;
   markdown += `\n*This document is automatically generated from Kiro official API*\n`;
 
@@ -260,7 +331,22 @@ function hasNewVersions(oldData, newData) {
     
     if (!oldInfo) return true;
     if (oldInfo.currentRelease !== newInfo.currentRelease) return true;
-    if ((oldInfo.releases?.length || 0) !== (newInfo.releases?.length || 0)) return true;
+    
+    // Check if there are any new releases by comparing URLs
+    const newReleases = newInfo.releases || [];
+    const oldReleases = oldInfo.releases || [];
+    
+    for (const newRelease of newReleases) {
+      const isNewRelease = !oldReleases.some(oldRelease => 
+        oldRelease.version === newRelease.version &&
+        oldRelease.updateTo?.url === newRelease.updateTo?.url
+      );
+      
+      if (isNewRelease) {
+        console.log(`New release detected for ${platform}: ${newRelease.version}`);
+        return true;
+      }
+    }
   }
   
   return false;
@@ -300,11 +386,11 @@ async function main() {
   if (hasUpdates) {
     console.log('Detected new version or data changes, updating files...');
     
-    // Save data
-    await saveData(newData);
+    // Save data with merge support
+    const finalData = await saveData(newData, existingData);
     
     // Generate and save Markdown
-    const markdown = generateMarkdown(newData);
+    const markdown = generateMarkdown(finalData);
     await saveMarkdown(markdown);
     
     console.log('✅ Update completed!');
