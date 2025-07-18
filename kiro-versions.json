@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-18T03:37:23.061Z",
+  "lastUpdated": "2025-07-18T04:38:50.587Z",
   "platforms": {
     "macOS (ARM64)": {
       "currentRelease": "0.1.15",
@@ -34,16 +34,16 @@
       "error": null
     },
     "Windows (x64)": {
-      "currentRelease": "0.1.9",
+      "currentRelease": "0.1.15",
       "releases": [
         {
-          "version": "0.1.9",
+          "version": "0.1.15",
           "updateTo": {
-            "version": "0.1.9",
-            "pub_date": "2025-07-16",
-            "notes": "Kiro-win32-x64-user-0.1.9",
-            "name": "Kiro-win32-x64-user-0.1.9",
-            "url": "https://prod.download.desktop.kiro.dev/releases/202507162021-Kiro-win32-x64.exe"
+            "version": "0.1.15",
+            "pub_date": "2025-07-18",
+            "notes": "Kiro-win32-x64-user-0.1.15",
+            "name": "Kiro-win32-x64-user-0.1.15",
+            "url": "https://prod.download.desktop.kiro.dev/releases/202507180417-Kiro-win32-x64.exe"
           }
         }
       ],
