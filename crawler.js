@@ -159,45 +159,43 @@ function generateMarkdown(data) {
 |---------|-------|-------|
 | 🪟 **WINDOWS** | 🍎 **MACOS** | 🐧 **LINUX** |`;
 
-  // Generate download links table
+  // Generate download links table - only show latest version downloads
   const platforms = data.platforms;
-  let windowsLinks = [];
-  let macosLinks = [];
-  let linuxLinks = [];
+  let latestDownloads = {
+    windows: [],
+    macosARM: null,
+    macosx64: null,
+    linuxDeb: null,
+    linuxTar: null
+  };
 
-  // Collect download links for each platform
+  // Find the latest release for each platform type
   Object.entries(platforms).forEach(([platform, info]) => {
     if (info.error || !info.releases || info.releases.length === 0) return;
     
-    info.releases.forEach(release => {
-      const updateInfo = release.updateTo;
-      if (!updateInfo) return;
-      
-      let linkText = '';
-      if (updateInfo.url.includes('.dmg')) {
-        linkText = platform.includes('ARM64') ? 'ARM64 Download' : 'x64 Download';
-        macosLinks.push(`[${linkText}](${updateInfo.url})`);
-      } else if (updateInfo.url.includes('.exe')) {
-        linkText = 'x64 Download';
-        windowsLinks.push(`[${linkText}](${updateInfo.url})`);
-      } else if (updateInfo.url.includes('.deb')) {
-        linkText = 'DEB Download';
-        linuxLinks.push(`[${linkText}](${updateInfo.url})`);
-      } else if (updateInfo.url.includes('.tar.gz')) {
-        linkText = 'x64 Download';
-        linuxLinks.push(`[${linkText}](${updateInfo.url})`);
+    // Get the most recent release (first one after sorting)
+    const latestRelease = info.releases[0];
+    const updateInfo = latestRelease?.updateTo;
+    if (!updateInfo) return;
+    
+    if (updateInfo.url.includes('.dmg')) {
+      if (platform.includes('ARM64')) {
+        latestDownloads.macosARM = `[ARM64 Download](${updateInfo.url})`;
+      } else {
+        latestDownloads.macosx64 = `[x64 Download](${updateInfo.url})`;
       }
-    });
+    } else if (updateInfo.url.includes('.exe')) {
+      latestDownloads.windows.push(`[x64 Download](${updateInfo.url})`);
+    } else if (updateInfo.url.includes('.deb')) {
+      latestDownloads.linuxDeb = `[DEB Download](${updateInfo.url})`;
+    } else if (updateInfo.url.includes('.tar.gz')) {
+      latestDownloads.linuxTar = `[x64 Download](${updateInfo.url})`;
+    }
   });
 
-  // Add download links to table
-  const maxRows = Math.max(windowsLinks.length, macosLinks.length, linuxLinks.length);
-  for (let i = 0; i < maxRows; i++) {
-    const winLink = windowsLinks[i] || '';
-    const macLink = macosLinks[i] || '';
-    const linuxLink = linuxLinks[i] || '';
-    markdown += `\n| ${winLink} | ${macLink} | ${linuxLink} |`;
-  }
+  // Add download links to table - only latest versions
+  markdown += `\n| ${latestDownloads.windows[0] || ''} | ${latestDownloads.macosARM || ''} | ${latestDownloads.linuxDeb || ''} |`;
+  markdown += `\n| | ${latestDownloads.macosx64 || ''} | ${latestDownloads.linuxTar || ''} |`;
 
   markdown += `\n\n## Complete Version History\n\n`;
 
