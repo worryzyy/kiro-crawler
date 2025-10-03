@@ -4,15 +4,15 @@
   # 🚀 Kiro IDE Version History
 </div>
 
-> Last Updated: 2025-09-30
+> Last Updated: 2025-10-03
 
 ## Latest Version
 
 <div align="center">
 
-### 📌 Kiro 0.3.0
+### 📌 Kiro 0.3.9
 
-**Release Date: 2025-09-30**
+**Release Date: 2025-10-03**
 
 </div>
 
@@ -21,13 +21,14 @@
 | Windows | macOS | Linux |
 |---------|-------|-------|
 | 🪟 **WINDOWS** | 🍎 **MACOS** | 🐧 **LINUX** |
-| [x64 Download](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-dmg-darwin-arm64.dmg) | [DEB Download](https://prod.download.desktop.kiro.dev/releases/202509300138--distro-linux-x64-deb/202509300138-distro-linux-x64.deb) |
-| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-dmg-darwin-x64.dmg) | [x64 Download](https://prod.download.desktop.kiro.dev/releases/202509300138--distro-linux-x64-tar-gz/202509300138-distro-linux-x64.tar.gz) |
+| [x64 Download](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-dmg-darwin-arm64.dmg) | [DEB Download](https://prod.download.desktop.kiro.dev/releases/202510022241--distro-linux-x64-deb/202510022241-distro-linux-x64.deb) |
+| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-dmg-darwin-x64.dmg) | [x64 Download](https://prod.download.desktop.kiro.dev/releases/202510022241--distro-linux-x64-tar-gz/202510022241-distro-linux-x64.tar.gz) |
 
 ## Complete Version History
 
 | Version | Date | Windows | macOS | Linux | Changelog |
 |---------|------|---------|-------|-------|----------|
+| 0.3.9 | 2025-10-03 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-dmg-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/202510022241-Kiro-dmg-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/202510022241--distro-linux-x64-deb/202510022241-distro-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/202510022241--distro-linux-x64-tar-gz/202510022241-distro-linux-x64.tar.gz) | N/A |
 | 0.3.0 | 2025-09-30 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-dmg-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/202509300138-Kiro-dmg-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/202509300138--distro-linux-x64-deb/202509300138-distro-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/202509300138--distro-linux-x64-tar-gz/202509300138-distro-linux-x64.tar.gz) | N/A |
 | 0.2.68 | 2025-09-23 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/202509232137-Kiro-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/202509232137-Kiro-dmg-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/202509232137-Kiro-dmg-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/202509232137--distro-linux-x64-deb/202509232137-distro-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/202509232137--distro-linux-x64-tar-gz/202509232137-distro-linux-x64.tar.gz) | N/A |
 | 0.2.59 | 2025-09-17 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/202509172055-Kiro-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/202509172055-Kiro-dmg-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/202509172055-Kiro-dmg-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/202509172055--distro-linux-x64-deb/202509172055-distro-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/202509172055--distro-linux-x64-tar-gz/202509172055-distro-linux-x64.tar.gz) | N/A |
@@ -43,8 +44,8 @@
 
 - Supported Platforms: 5
 - Successfully Retrieved: 5
-- Total Release Files: 90
-- Total Unique Versions: 10
+- Total Release Files: 99
+- Total Unique Versions: 11
 
 ---
 
