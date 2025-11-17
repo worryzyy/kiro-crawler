@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-17T16:27:30.280Z",
+  "lastUpdated": "2025-11-17T19:15:38.058Z",
   "platforms": {
     "macOS (ARM64)": {
       "currentRelease": "0.6.0",
@@ -986,7 +986,7 @@
       "error": null
     },
     "Linux (x64)": {
-      "currentRelease": "0.6.0",
+      "currentRelease": null,
       "releases": [
         {
           "version": "0.6.0",
@@ -1469,7 +1469,7 @@
           }
         }
       ],
-      "error": null
+      "error": "HTTP 500: Internal Server Error"
     }
   }
 }
