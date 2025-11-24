@@ -4,15 +4,15 @@
   # 🚀 Kiro IDE Version History
 </div>
 
-> Last Updated: 2025-11-17
+> Last Updated: 2025-11-24
 
 ## Latest Version
 
 <div align="center">
 
-### 📌 Kiro 0.6.0
+### 📌 Kiro 0.6.18
 
-**Release Date: 2025-11-17**
+**Release Date: 2025-11-24**
 
 </div>
 
@@ -21,13 +21,14 @@
 | Windows | macOS | Linux |
 |---------|-------|-------|
 | 🪟 **WINDOWS** | 🍎 **MACOS** | 🐧 **LINUX** |
-| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.6.0/kiro-ide-0.6.0-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.6.0/kiro-ide-0.6.0-stable-darwin-arm64.dmg) |  |
-| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.6.0/kiro-ide-0.6.0-stable-darwin-x64.dmg) |  |
+| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.6.18/kiro-ide-0.6.18-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.6.18/kiro-ide-0.6.18-stable-darwin-arm64.dmg) |  |
+| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.6.18/kiro-ide-0.6.18-stable-darwin-x64.dmg) |  |
 
 ## Complete Version History
 
 | Version | Date | Windows | macOS | Linux | Changelog |
 |---------|------|---------|-------|-------|----------|
+| 0.6.18 | 2025-11-24 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.6.18/kiro-ide-0.6.18-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.6.18/kiro-ide-0.6.18-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.6.18/kiro-ide-0.6.18-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.6.18/deb/kiro-ide-0.6.18-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.6.18/tar/kiro-ide-0.6.18-stable-linux-x64.tar.gz) | N/A |
 | 0.6.0 | 2025-11-17 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.6.0/kiro-ide-0.6.0-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.6.0/kiro-ide-0.6.0-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.6.0/kiro-ide-0.6.0-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.6.0/deb/kiro-ide-0.6.0-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.6.0/tar/kiro-ide-0.6.0-stable-linux-x64.tar.gz) | N/A |
 | 0.5.35 | 2025-11-13 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.5.35/kiro-ide-0.5.35-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.5.35/kiro-ide-0.5.35-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.5.35/kiro-ide-0.5.35-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.5.35/deb/kiro-ide-0.5.35-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.5.35/tar/kiro-ide-0.5.35-stable-linux-x64.tar.gz) | N/A |
 | 0.5.9 | 2025-11-03 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/202511032205-Kiro-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/202511032205-Kiro-dmg-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/202511032205-Kiro-dmg-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/202511032205--distro-linux-x64-deb/202511032205-distro-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/202511032205--distro-linux-x64-tar-gz/202511032205-distro-linux-x64.tar.gz) | N/A |
@@ -49,8 +50,8 @@
 
 - Supported Platforms: 5
 - Successfully Retrieved: 5
-- Total Release Files: 144
-- Total Unique Versions: 16
+- Total Release Files: 153
+- Total Unique Versions: 17
 
 ---
 
