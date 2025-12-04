@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2025-12-03T15:23:59.598Z",
+  "lastUpdated": "2025-12-04T01:41:43.008Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": "0.7.0",
+      "currentRelease": "0.7.5",
       "releases": [
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-dmg-darwin-arm64-0.7.5",
+            "name": "Kiro-dmg-darwin-arm64-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.7.5/kiro-ide-0.7.5-stable-darwin-arm64.dmg"
+          }
+        },
         {
           "version": "0.7.0",
           "updateTo": {
@@ -208,8 +218,18 @@
       "error": null
     },
     "macOS (x64)": {
-      "currentRelease": "0.7.0",
+      "currentRelease": "0.7.5",
       "releases": [
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-dmg-darwin-x64-0.7.5",
+            "name": "Kiro-dmg-darwin-x64-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.7.5/kiro-ide-0.7.5-stable-darwin-x64.dmg"
+          }
+        },
         {
           "version": "0.7.0",
           "updateTo": {
@@ -414,8 +434,18 @@
       "error": null
     },
     "Windows (x64)": {
-      "currentRelease": "0.7.0",
+      "currentRelease": "0.7.5",
       "releases": [
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-win32-x64-user-0.7.5",
+            "name": "Kiro-win32-x64-user-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.5/kiro-ide-0.7.5-stable-win32-x64.exe"
+          }
+        },
         {
           "version": "0.7.0",
           "updateTo": {
@@ -620,8 +650,38 @@
       "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": "0.7.0",
+      "currentRelease": "0.7.5",
       "releases": [
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-deb-0.7.5",
+            "name": "Kiro-linux-x64-deb-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/deb/certificate.pem"
+          }
+        },
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-deb-0.7.5",
+            "name": "Kiro-linux-x64-deb-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/deb/kiro-ide-0.7.5-stable-linux-x64.deb"
+          }
+        },
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-deb-0.7.5",
+            "name": "Kiro-linux-x64-deb-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/deb/signature.bin"
+          }
+        },
         {
           "version": "0.7.0",
           "updateTo": {
@@ -1226,8 +1286,38 @@
       "error": null
     },
     "Linux (x64)": {
-      "currentRelease": "0.7.0",
+      "currentRelease": "0.7.5",
       "releases": [
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-0.7.5",
+            "name": "Kiro-linux-x64-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/tar/certificate.pem"
+          }
+        },
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-0.7.5",
+            "name": "Kiro-linux-x64-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/tar/kiro-ide-0.7.5-stable-linux-x64.tar.gz"
+          }
+        },
+        {
+          "version": "0.7.5",
+          "updateTo": {
+            "version": "0.7.5",
+            "pub_date": "2025-12-03",
+            "notes": "Kiro-linux-x64-0.7.5",
+            "name": "Kiro-linux-x64-0.7.5",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.5/tar/signature.bin"
+          }
+        },
         {
           "version": "0.7.0",
           "updateTo": {
