@@ -4,15 +4,15 @@
   # 🚀 Kiro IDE Version History
 </div>
 
-> Last Updated: 2025-12-11
+> Last Updated: 2025-12-19
 
 ## Latest Version
 
 <div align="center">
 
-### 📌 Kiro 0.7.45
+### 📌 Kiro 0.8.0
 
-**Release Date: 2025-12-11**
+**Release Date: 2025-12-19**
 
 </div>
 
@@ -21,13 +21,14 @@
 | Windows | macOS | Linux |
 |---------|-------|-------|
 | 🪟 **WINDOWS** | 🍎 **MACOS** | 🐧 **LINUX** |
-| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.45/kiro-ide-0.7.45-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.7.45/kiro-ide-0.7.45-stable-darwin-arm64.dmg) |  |
-| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.7.45/kiro-ide-0.7.45-stable-darwin-x64.dmg) |  |
+| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.8.0/kiro-ide-0.8.0-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.8.0/kiro-ide-0.8.0-stable-darwin-arm64.dmg) |  |
+| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.8.0/kiro-ide-0.8.0-stable-darwin-x64.dmg) |  |
 
 ## Complete Version History
 
 | Version | Date | Windows | macOS | Linux | Changelog |
 |---------|------|---------|-------|-------|----------|
+| 0.8.0 | 2025-12-19 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.8.0/kiro-ide-0.8.0-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.8.0/kiro-ide-0.8.0-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.8.0/kiro-ide-0.8.0-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.8.0/deb/kiro-ide-0.8.0-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.8.0/tar/kiro-ide-0.8.0-stable-linux-x64.tar.gz) | N/A |
 | 0.7.45 | 2025-12-10 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.45/kiro-ide-0.7.45-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.7.45/kiro-ide-0.7.45-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.7.45/kiro-ide-0.7.45-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.45/deb/kiro-ide-0.7.45-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.45/tar/kiro-ide-0.7.45-stable-linux-x64.tar.gz) | N/A |
 | 0.7.34 | 2025-12-09 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.34/kiro-ide-0.7.34-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.7.34/kiro-ide-0.7.34-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.7.34/kiro-ide-0.7.34-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.34/deb/kiro-ide-0.7.34-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.34/tar/kiro-ide-0.7.34-stable-linux-x64.tar.gz) | N/A |
 | 0.7.21 | 2025-12-06 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.21/kiro-ide-0.7.21-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.7.21/kiro-ide-0.7.21-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.7.21/kiro-ide-0.7.21-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.21/deb/kiro-ide-0.7.21-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.7.21/tar/kiro-ide-0.7.21-stable-linux-x64.tar.gz) | N/A |
@@ -57,8 +58,8 @@
 
 - Supported Platforms: 5
 - Successfully Retrieved: 5
-- Total Release Files: 216
-- Total Unique Versions: 24
+- Total Release Files: 225
+- Total Unique Versions: 25
 
 ---
 
