@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-01-23T06:36:00.787Z",
+  "lastUpdated": "2026-01-23T07:25:50.291Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": null,
+      "currentRelease": "0.8.140",
       "releases": [
         {
           "version": "0.8.140",
@@ -285,7 +285,7 @@
           }
         }
       ],
-      "error": "HTTP 502: Bad Gateway"
+      "error": null
     },
     "macOS (x64)": {
       "currentRelease": "0.8.140",
