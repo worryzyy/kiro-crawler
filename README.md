@@ -4,15 +4,15 @@
   # 🚀 Kiro IDE Version History
 </div>
 
-> Last Updated: 2026-02-21
+> Last Updated: 2026-02-24
 
 ## Latest Version
 
 <div align="center">
 
-### 📌 Kiro 0.10.16
+### 📌 Kiro 0.10.32
 
-**Release Date: 2026-02-21**
+**Release Date: 2026-02-24**
 
 </div>
 
@@ -21,13 +21,14 @@
 | Windows | macOS | Linux |
 |---------|-------|-------|
 | 🪟 **WINDOWS** | 🍎 **MACOS** | 🐧 **LINUX** |
-| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.16/kiro-ide-0.10.16-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.16/kiro-ide-0.10.16-stable-darwin-arm64.dmg) |  |
-| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.16/kiro-ide-0.10.16-stable-darwin-x64.dmg) |  |
+| [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.32/kiro-ide-0.10.32-stable-win32-x64.exe) | [ARM64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.32/kiro-ide-0.10.32-stable-darwin-arm64.dmg) |  |
+| | [x64 Download](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.32/kiro-ide-0.10.32-stable-darwin-x64.dmg) |  |
 
 ## Complete Version History
 
 | Version | Date | Windows | macOS | Linux | Changelog |
 |---------|------|---------|-------|-------|----------|
+| 0.10.32 | 2026-02-24 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.32/kiro-ide-0.10.32-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.32/kiro-ide-0.10.32-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.32/kiro-ide-0.10.32-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.32/deb/kiro-ide-0.10.32-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.32/tar/kiro-ide-0.10.32-stable-linux-x64.tar.gz) | N/A |
 | 0.10.16 | 2026-02-21 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.16/kiro-ide-0.10.16-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.16/kiro-ide-0.10.16-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.16/kiro-ide-0.10.16-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.16/deb/kiro-ide-0.10.16-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.16/tar/kiro-ide-0.10.16-stable-linux-x64.tar.gz) | N/A |
 | 0.10.10 | 2026-02-20 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.10/kiro-ide-0.10.10-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.10/kiro-ide-0.10.10-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.10/kiro-ide-0.10.10-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.10/deb/kiro-ide-0.10.10-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.10/tar/kiro-ide-0.10.10-stable-linux-x64.tar.gz) | N/A |
 | 0.10.0 | 2026-02-18 | [🪟 x64](https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.10.0/kiro-ide-0.10.0-stable-win32-x64.exe) | [🍎 ARM64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.10.0/kiro-ide-0.10.0-stable-darwin-arm64.dmg)<br>[🍎 x64](https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.10.0/kiro-ide-0.10.0-stable-darwin-x64.dmg) | [🐧 DEB](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.0/deb/kiro-ide-0.10.0-stable-linux-x64.deb)<br>[🐧 x64](https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.10.0/tar/kiro-ide-0.10.0-stable-linux-x64.tar.gz) | N/A |
@@ -68,8 +69,8 @@
 
 - Supported Platforms: 5
 - Successfully Retrieved: 5
-- Total Release Files: 315
-- Total Unique Versions: 35
+- Total Release Files: 324
+- Total Unique Versions: 36
 
 ---
 
