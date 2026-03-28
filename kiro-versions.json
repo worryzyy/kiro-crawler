@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-28T15:31:37.186Z",
+  "lastUpdated": "2026-03-28T16:35:10.599Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": null,
+      "currentRelease": "0.11.107",
       "releases": [
         {
           "version": "0.11.107",
@@ -415,10 +415,10 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "macOS (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.11.107",
       "releases": [
         {
           "version": "0.11.107",
@@ -831,10 +831,10 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Windows (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.11.107",
       "releases": [
         {
           "version": "0.11.107",
@@ -1247,10 +1247,10 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": null,
+      "currentRelease": "0.11.107",
       "releases": [
         {
           "version": "0.11.107",
@@ -2483,10 +2483,10 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Linux (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.11.107",
       "releases": [
         {
           "version": "0.11.107",
@@ -3719,7 +3719,7 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     }
   }
 }
