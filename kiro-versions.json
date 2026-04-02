@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-03-28T16:35:10.599Z",
+  "lastUpdated": "2026-04-02T21:38:25.229Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": "0.11.107",
+      "currentRelease": "0.11.130",
       "releases": [
+        {
+          "version": "0.11.130",
+          "updateTo": {
+            "version": "0.11.130",
+            "pub_date": "2026-04-02",
+            "notes": "Kiro-dmg-darwin-arm64-0.11.130",
+            "name": "Kiro-dmg-darwin-arm64-0.11.130",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.11.130/kiro-ide-0.11.130-stable-darwin-arm64.dmg"
+          }
+        },
         {
           "version": "0.11.107",
           "updateTo": {
@@ -418,8 +428,18 @@
       "error": null
     },
     "macOS (x64)": {
-      "currentRelease": "0.11.107",
+      "currentRelease": "0.11.130",
       "releases": [
+        {
+          "version": "0.11.130",
+          "updateTo": {
+            "version": "0.11.130",
+            "pub_date": "2026-04-02",
+            "notes": "Kiro-dmg-darwin-x64-0.11.130",
+            "name": "Kiro-dmg-darwin-x64-0.11.130",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.11.130/kiro-ide-0.11.130-stable-darwin-x64.dmg"
+          }
+        },
         {
           "version": "0.11.107",
           "updateTo": {
