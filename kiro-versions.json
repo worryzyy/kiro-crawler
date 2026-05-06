@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-04-22T20:55:27.532Z",
+  "lastUpdated": "2026-05-06T18:16:29.498Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": "0.11.133",
+      "currentRelease": "0.12.155",
       "releases": [
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-dmg-darwin-arm64-0.12.155",
+            "name": "Kiro-dmg-darwin-arm64-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.12.155/kiro-ide-0.12.155-stable-darwin-arm64.dmg"
+          }
+        },
         {
           "version": "0.11.133",
           "updateTo": {
@@ -458,8 +468,18 @@
       "error": null
     },
     "macOS (x64)": {
-      "currentRelease": "0.11.133",
+      "currentRelease": "0.12.155",
       "releases": [
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-dmg-darwin-x64-0.12.155",
+            "name": "Kiro-dmg-darwin-x64-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.12.155/kiro-ide-0.12.155-stable-darwin-x64.dmg"
+          }
+        },
         {
           "version": "0.11.133",
           "updateTo": {
@@ -914,8 +934,18 @@
       "error": null
     },
     "Windows (x64)": {
-      "currentRelease": "0.11.133",
+      "currentRelease": "0.12.155",
       "releases": [
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-win32-x64-user-0.12.155",
+            "name": "Kiro-win32-x64-user-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.12.155/kiro-ide-0.12.155-stable-win32-x64.exe"
+          }
+        },
         {
           "version": "0.11.133",
           "updateTo": {
@@ -1370,8 +1400,38 @@
       "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": "0.11.133",
+      "currentRelease": "0.12.155",
       "releases": [
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-deb-0.12.155",
+            "name": "Kiro-linux-x64-deb-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/deb/certificate.pem"
+          }
+        },
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-deb-0.12.155",
+            "name": "Kiro-linux-x64-deb-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/deb/kiro-ide-0.12.155-stable-linux-x64.deb"
+          }
+        },
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-deb-0.12.155",
+            "name": "Kiro-linux-x64-deb-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/deb/signature.bin"
+          }
+        },
         {
           "version": "0.11.133",
           "updateTo": {
@@ -2726,8 +2786,38 @@
       "error": null
     },
     "Linux (x64)": {
-      "currentRelease": "0.11.133",
+      "currentRelease": "0.12.155",
       "releases": [
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-0.12.155",
+            "name": "Kiro-linux-x64-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/tar/certificate.pem"
+          }
+        },
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-0.12.155",
+            "name": "Kiro-linux-x64-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/tar/kiro-ide-0.12.155-stable-linux-x64.tar.gz"
+          }
+        },
+        {
+          "version": "0.12.155",
+          "updateTo": {
+            "version": "0.12.155",
+            "pub_date": "2026-05-06",
+            "notes": "Kiro-linux-x64-0.12.155",
+            "name": "Kiro-linux-x64-0.12.155",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.155/tar/signature.bin"
+          }
+        },
         {
           "version": "0.11.133",
           "updateTo": {
