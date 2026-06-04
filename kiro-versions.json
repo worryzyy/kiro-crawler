@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-06-04T20:56:04.980Z",
+  "lastUpdated": "2026-06-04T22:22:22.760Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": null,
+      "currentRelease": "0.12.292",
       "releases": [
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-dmg-darwin-arm64-0.12.292",
+            "name": "Kiro-dmg-darwin-arm64-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.12.292/kiro-ide-0.12.292-stable-darwin-arm64.dmg"
+          }
+        },
         {
           "version": "0.12.263",
           "updateTo": {
@@ -505,11 +515,21 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "macOS (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.12.292",
       "releases": [
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-dmg-darwin-x64-0.12.292",
+            "name": "Kiro-dmg-darwin-x64-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-x64/signed/0.12.292/kiro-ide-0.12.292-stable-darwin-x64.dmg"
+          }
+        },
         {
           "version": "0.12.263",
           "updateTo": {
@@ -1011,11 +1031,21 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Windows (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.12.292",
       "releases": [
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-win32-x64-user-0.12.292",
+            "name": "Kiro-win32-x64-user-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.12.292/kiro-ide-0.12.292-stable-win32-x64.exe"
+          }
+        },
         {
           "version": "0.12.263",
           "updateTo": {
@@ -1517,11 +1547,41 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": null,
+      "currentRelease": "0.12.292",
       "releases": [
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-deb-0.12.292",
+            "name": "Kiro-linux-x64-deb-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/deb/certificate.pem"
+          }
+        },
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-deb-0.12.292",
+            "name": "Kiro-linux-x64-deb-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/deb/kiro-ide-0.12.292-stable-linux-x64.deb"
+          }
+        },
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-deb-0.12.292",
+            "name": "Kiro-linux-x64-deb-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/deb/signature.bin"
+          }
+        },
         {
           "version": "0.12.263",
           "updateTo": {
@@ -3023,11 +3083,41 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     },
     "Linux (x64)": {
-      "currentRelease": null,
+      "currentRelease": "0.12.292",
       "releases": [
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-0.12.292",
+            "name": "Kiro-linux-x64-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/tar/certificate.pem"
+          }
+        },
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-0.12.292",
+            "name": "Kiro-linux-x64-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/tar/kiro-ide-0.12.292-stable-linux-x64.tar.gz"
+          }
+        },
+        {
+          "version": "0.12.292",
+          "updateTo": {
+            "version": "0.12.292",
+            "pub_date": "2026-06-04",
+            "notes": "Kiro-linux-x64-0.12.292",
+            "name": "Kiro-linux-x64-0.12.292",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/0.12.292/tar/signature.bin"
+          }
+        },
         {
           "version": "0.12.263",
           "updateTo": {
@@ -4529,7 +4619,7 @@
           }
         }
       ],
-      "error": "HTTP 403: Forbidden"
+      "error": null
     }
   }
 }
