@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-13T21:56:26.061Z",
+  "lastUpdated": "2026-07-13T23:57:33.632Z",
   "platforms": {
     "macOS (ARM64)": {
-      "currentRelease": "1.0.138",
+      "currentRelease": "0.12.333",
       "releases": [
         {
           "version": "1.0.138",
@@ -578,7 +578,7 @@
       "error": null
     },
     "macOS (x64)": {
-      "currentRelease": "1.0.138",
+      "currentRelease": "0.12.333",
       "releases": [
         {
           "version": "1.0.138",
@@ -1154,7 +1154,7 @@
       "error": null
     },
     "Windows (x64)": {
-      "currentRelease": "1.0.138",
+      "currentRelease": "0.12.333",
       "releases": [
         {
           "version": "1.0.138",
@@ -1730,7 +1730,7 @@
       "error": null
     },
     "Linux (x64 DEB)": {
-      "currentRelease": "1.0.138",
+      "currentRelease": "0.12.333",
       "releases": [
         {
           "version": "1.0.138",
@@ -3446,7 +3446,7 @@
       "error": null
     },
     "Linux (x64)": {
-      "currentRelease": "1.0.138",
+      "currentRelease": "0.12.333",
       "releases": [
         {
           "version": "1.0.138",

@@ -10,7 +10,7 @@
 
 <div align="center">
 
-### 📌 Kiro 1.0.138
+### 📌 Kiro 0.12.333
 
 **Release Date: 2026-07-13**
 
