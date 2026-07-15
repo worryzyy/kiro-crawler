@@ -4,15 +4,15 @@
   # 🚀 Kiro IDE Version History
 </div>
 
-> Last Updated: 2026-07-13
+> Last Updated: 2026-07-15
 
 ## Latest Version
 
 <div align="center">
 
-### 📌 Kiro 0.12.333
+### 📌 Kiro 1.0.138
 
-**Release Date: 2026-07-13**
+**Release Date: 2026-07-15**
 
 </div>
 
