@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T21:59:23.457Z",
+  "lastUpdated": "2026-07-20T23:08:26.767Z",
   "platforms": {
     "macOS (ARM64)": {
       "currentRelease": "1.0.182",
@@ -1194,7 +1194,7 @@
       "error": null
     },
     "Windows (x64)": {
-      "currentRelease": null,
+      "currentRelease": "1.0.182",
       "releases": [
         {
           "version": "1.0.182",
@@ -1787,7 +1787,7 @@
           }
         }
       ],
-      "error": "request to https://prod.download.desktop.kiro.dev/stable/metadata-win32-x64-user-stable.json failed, reason: read ECONNRESET"
+      "error": null
     },
     "Linux (x64 DEB)": {
       "currentRelease": "1.0.182",
